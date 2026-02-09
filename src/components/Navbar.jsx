@@ -9,7 +9,7 @@ import { BsGlobe2 } from 'react-icons/bs';
 import { IoChevronDown } from "react-icons/io5";
 const Navbar = () => {
     return (
-        <div className="text-[#212529] w-full">
+        <div className="text-[#212529] w-full relative z-50">
             <div className="container mx-auto py-[20px] flex justify-between items-center">
                 <div className="navbarBrand">
                     <NavLink>
