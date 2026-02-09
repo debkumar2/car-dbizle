@@ -1,0 +1,148 @@
+import featuredCarOne from '../assets/images/featuredCarOne.jpg';
+import featuredCarTwo from '../assets/images/featuredCarTwo.jpg';
+import featuredCarThree from '../assets/images/featuredCarThree.jpg';
+import featuredCarFour from '../assets/images/featuredCarFour.jpg';
+import featuredCarFive from '../assets/images/featuredCarFive.jpg';
+import featuredCarSix from '../assets/images/featuredCarSix.jpg';
+import featuredCarSeven from '../assets/images/featuredCarSeven.jpg';
+import featuredCarEight from '../assets/images/featuredCarEight.jpg';
+const featuredCarList = [
+    {
+        id: 1,
+        imageUrl: featuredCarOne,
+        companyName: 'AED 46',
+        brandName: 'Ford',
+        carText: 'Ford Mustang - Quality Used Cars Available',
+        gearType: 'Manual Transmission',
+        fuelType: 'Hybrid',
+        registration: '2017',
+        cc: '6750 cc',
+        seatCapacity: '4',
+        modelYear: '2017',
+        kmRun: '65000',
+        owner: 'First Owner',
+        rto: 'WBXX1034',
+        location: 'kolkata Airport Quarters, Dum Dum, Kolkata, West Bengal, India'
+    },
+    {
+        id: 2,
+        imageUrl: featuredCarTwo,
+        companyName: 'AED 6 523 000',
+        brandName: 'Rolls-Royce',
+        carText: 'Used Rolls-Royce Silver Shadow for sale',
+        gearType: 'Automatic Transmission',
+        fuelType: 'Petrol',
+        registration: '2018',
+        cc: '6750 cc',
+        seatCapacity: '8',
+        modelYear: '2018',
+        kmRun: '75000',
+        owner: 'Second Owner',
+        rto: 'WBXX1134',
+        location: 'Abu Dhabi - United Arab Emirates'
+    },
+    {
+        id: 3,
+        imageUrl: featuredCarThree,
+        companyName: 'AED 1 252 000',
+        brandName: 'BMW',
+        carText: 'BMW 3 Series',
+        gearType: 'Automatic Transmission',
+        fuelType: 'Petrol',
+        registration: '2019',
+        cc: '1998 cc',
+        seatCapacity: '5',
+        modelYear: '2019',
+        kmRun: '42000',
+        owner: 'First Owner',
+        rto: 'MHXX5678',
+        location: 'Al Quoz - Dubai - United Arab Emirates'
+    },
+    {
+        id: 4,
+        imageUrl: featuredCarFour,
+        companyName: 'AED 1 352 000',
+        brandName: 'Mahindra',
+        carText: 'Mahindra Scorpio',
+        gearType: 'Manual Transmission',
+        fuelType: 'Manual',
+        registration: '2020',
+        cc: '2179 cc',
+        seatCapacity: '6',
+        modelYear: '2019',
+        kmRun: '65,000',
+        owner: 'First Owner',
+        rto: 'MHXX1234',
+        location: 'Al Quoz - Dubai - United Arab Emirates'
+    },
+     {
+    id: 5,
+    imageUrl: featuredCarEight,
+    companyName: 'AED 5 200 000',
+    brandName: 'Audi',
+    carText: 'Audi R8 V10 Performance',
+    gearType: 'Automatic Transmission',
+    fuelType: 'Petrol',
+    registration: '2021',
+    cc: '5204 cc',
+    seatCapacity: '2',
+    modelYear: '2021',
+    kmRun: '12000',
+    owner: 'First Owner',
+    rto: 'DXBXX2345',
+    location: 'Dubai Marina - United Arab Emirates'
+  },
+  {
+    id: 6,
+    imageUrl: featuredCarSeven,
+    companyName: 'AED 2 450 000',
+    brandName: 'Ford',
+    carText: 'Ford Mustang GT',
+    gearType: 'Manual Transmission',
+    fuelType: 'Petrol',
+    registration: '2020',
+    cc: '5038 cc',
+    seatCapacity: '4',
+    modelYear: '2020',
+    kmRun: '28000',
+    owner: 'First Owner',
+    rto: 'DLXX7890',
+    location: 'New Delhi, India'
+  },
+  {
+    id: 7,
+    imageUrl: featuredCarSix,
+    companyName: 'AED 98 000',
+    brandName: 'Volkswagen',
+    carText: 'Volkswagen Golf GTI',
+    gearType: 'Automatic Transmission',
+    fuelType: 'Petrol',
+    registration: '2019',
+    cc: '1984 cc',
+    seatCapacity: '5',
+    modelYear: '2019',
+    kmRun: '45000',
+    owner: 'Second Owner',
+    rto: 'GJXX3456',
+    location: 'Sharjah - United Arab Emirates'
+  },
+  {
+    id: 8,
+    imageUrl: featuredCarFive,
+    companyName: 'AED 72 000',
+    brandName: 'Hyundai',
+    carText: 'Hyundai Elantra',
+    gearType: 'Automatic Transmission',
+    fuelType: 'Petrol',
+    registration: '2021',
+    cc: '1999 cc',
+    seatCapacity: '5',
+    modelYear: '2021',
+    kmRun: '31000',
+    owner: 'First Owner',
+    rto: 'TNXX9876',
+    location: 'Chennai, Tamil Nadu, India'
+  },
+]
+
+export default featuredCarList;
