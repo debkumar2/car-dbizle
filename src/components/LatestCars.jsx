@@ -1,5 +1,5 @@
 import React from 'react'
-import featuredCarList from '../models/FeaturedCarList'
+import featuredCarList from '../models/featuredCarList'
 import { FaCarSide, FaGears, FaRegBuilding, FaRegCircleUser } from 'react-icons/fa6'
 import { LuFuel, LuNotepadText } from 'react-icons/lu'
 import { MdOutlineAirlineSeatReclineExtra, MdOutlineLocationOn } from 'react-icons/md'
